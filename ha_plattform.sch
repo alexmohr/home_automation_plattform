@@ -31,7 +31,7 @@ U 1 1 5AD79006
 P 5100 1400
 F 0 "IR_D1" H 5120 1470 50  0000 L CNN
 F 1 "IRL81A" H 5060 1290 50  0000 C CNN
-F 2 "Diode_THT:D_A-405_P2.54mm_Vertical_KathodeUp" H 5100 1575 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5100 1575 50  0001 C CNN
 F 3 "" H 5050 1400 50  0001 C CNN
 	1    5100 1400
 	-1   0    0    -1  
@@ -42,7 +42,7 @@ U 1 1 5AD7905C
 P 5600 1400
 F 0 "IR_D2" H 5620 1470 50  0000 L CNN
 F 1 "IRL81A" H 5560 1290 50  0000 C CNN
-F 2 "Diode_THT:D_A-405_P2.54mm_Vertical_KathodeUp" H 5600 1575 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5600 1575 50  0001 C CNN
 F 3 "" H 5550 1400 50  0001 C CNN
 	1    5600 1400
 	-1   0    0    -1  
@@ -53,7 +53,7 @@ U 1 1 5AD7918F
 P 4750 1600
 F 0 "R10k1" V 4830 1600 50  0000 C CNN
 F 1 "R10k" V 4750 1600 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" V 4680 1600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4680 1600 50  0001 C CNN
 F 3 "" H 4750 1600 50  0001 C CNN
 	1    4750 1600
 	0    -1   -1   0   
@@ -239,7 +239,7 @@ U 1 1 5ADD3D70
 P 8200 1700
 F 0 "LDR1" H 8270 1746 50  0000 L CNN
 F 1 "LDR03" H 8270 1655 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" V 8375 1700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8375 1700 50  0001 C CNN
 F 3 "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf" H 8200 1650 50  0001 C CNN
 	1    8200 1700
 	1    0    0    -1  
