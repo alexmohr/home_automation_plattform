@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 8)
-    (tracks 146)
+    (tracks 145)
     (zones 0)
     (modules 12)
     (nets 21)
@@ -11,8 +11,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -903,7 +903,7 @@
   (gr_text "HA Plattform V0.2 (c) 2018 A. Mohr\n" (at 60.071 73.406) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.1)))
   )
-  (gr_text Antenna (at 53.086 52.959 45) (layer F.SilkS)
+  (gr_text Antenna (at 53.086 52.959 45) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.1)))
   )
   (dimension 20.32 (width 0.3) (layer B.SilkS)
@@ -1029,7 +1029,6 @@
   (segment (start 27.61533 64.262) (end 29.13933 65.786) (width 1.27) (layer B.Cu) (net 15))
   (segment (start 24.384 64.262) (end 27.61533 64.262) (width 1.27) (layer B.Cu) (net 15))
   (segment (start 40.894 65.786) (end 40.894 70.739) (width 1.27) (layer B.Cu) (net 15))
-  (segment (start 40.894 71.882) (end 40.894 71.8345) (width 0.25) (layer F.Cu) (net 15) (status 30))
   (segment (start 37.211 71.882) (end 38.354 70.739) (width 1.27) (layer B.Cu) (net 16))
   (segment (start 24.384 71.882) (end 37.211 71.882) (width 1.27) (layer B.Cu) (net 16))
   (segment (start 61.214 54.102) (end 61.1665 54.102) (width 0.25) (layer F.Cu) (net 17) (status 30))
