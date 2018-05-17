@@ -59,17 +59,6 @@ F 3 "" H 4750 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ha_plattform-rescue:TSOP382xx IR_Input1
-U 1 1 5AD7A360
-P 5900 5100
-F 0 "IR_Input1" H 5500 5400 50  0000 L CNN
-F 1 "TSOP382xx" H 5500 4800 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5850 4725 50  0001 C CNN
-F 3 "" H 6550 5400 50  0001 C CNN
-	1    5900 5100
-	-1   0    0    1   
-$EndComp
-$Comp
 L ha_plattform-rescue:Raspberry_Pi_2_3 J3
 U 1 1 5AD7EDF3
 P 2950 3150
@@ -83,15 +72,9 @@ $EndComp
 Wire Wire Line
 	5550 2150 5650 2150
 Wire Wire Line
-	1600 5100 5500 5100
-Wire Wire Line
 	5300 1400 5500 1400
 Wire Wire Line
 	5800 1400 5950 1400
-Wire Wire Line
-	5950 1400 5950 1950
-Wire Wire Line
-	2750 1400 2750 1850
 Wire Wire Line
 	2050 3050 1650 3050
 Wire Wire Line
@@ -108,37 +91,6 @@ Wire Wire Line
 	1500 1200 3150 1200
 Wire Wire Line
 	3150 1200 3150 1850
-$Comp
-L Connector_Generic:Conn_01x03 433_TX1
-U 1 1 5AD8F089
-P 7000 2700
-F 0 "433_TX1" H 7080 2742 50  0000 L CNN
-F 1 "433 MHz transmit" H 7080 2651 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7000 2700 50  0001 C CNN
-F 3 "~" H 7000 2700 50  0001 C CNN
-	1    7000 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 1050 6600 2000
-$Comp
-L Connector_Generic:Conn_01x04 433_RX1
-U 1 1 5AD90BD9
-P 7000 2100
-F 0 "433_RX1" H 7079 2092 50  0000 L CNN
-F 1 "433 Mhz receive" H 7079 2001 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-4_Vertical" H 7000 2100 50  0001 C CNN
-F 3 "~" H 7000 2100 50  0001 C CNN
-	1    7000 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6800 2000 6600 2000
-Connection ~ 6600 2000
-Wire Wire Line
-	6800 2700 6600 2700
-Wire Wire Line
-	6600 2000 6600 2700
 Wire Wire Line
 	6800 2800 6600 2800
 Wire Wire Line
@@ -148,18 +100,9 @@ Wire Wire Line
 Wire Wire Line
 	3850 3550 6500 3550
 Wire Wire Line
-	6500 2100 6800 2100
-Wire Wire Line
-	6500 2100 6500 3550
-Wire Wire Line
-	6800 2300 6800 2450
-Wire Wire Line
 	6800 2450 7300 2450
 Wire Wire Line
 	7300 2450 7300 4550
-Connection ~ 6800 2450
-Wire Wire Line
-	6800 2450 6800 2600
 $Comp
 L wireless-modules:CC1101-868MHz-Module CC1101
 U 1 1 5AD9CCE5
@@ -171,8 +114,6 @@ F 3 "" H 5900 6300 60  0001 C CNN
 	1    5900 6300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5900 5500 5050 5500
 Wire Wire Line
 	5050 5500 5050 5300
 Wire Wire Line
@@ -214,21 +155,16 @@ Wire Wire Line
 	1350 6600 1350 3250
 Wire Wire Line
 	1350 3250 2050 3250
-Connection ~ 5050 5300
-Wire Wire Line
-	5050 5300 5500 5300
 Wire Wire Line
 	1500 5300 5050 5300
 Connection ~ 5800 7300
-Wire Wire Line
-	2750 1400 5000 1400
 $Comp
 L Device:CP C_0.22F1
 U 1 1 5ADD3A24
 P 8200 2100
 F 0 "C_0.22F1" H 8318 2146 50  0000 L CNN
 F 1 "0.22F" H 8318 2055 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 8238 1950 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D14.0mm_P5.00mm" H 8238 1950 50  0001 C CNN
 F 3 "~" H 8200 2100 50  0001 C CNN
 	1    8200 2100
 	1    0    0    -1  
@@ -239,15 +175,15 @@ U 1 1 5ADD3D70
 P 8200 1700
 F 0 "LDR1" H 8270 1746 50  0000 L CNN
 F 1 "LDR03" H 8270 1655 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8375 1700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8375 1700 50  0001 C CNN
 F 3 "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf" H 8200 1650 50  0001 C CNN
 	1    8200 1700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 1850 2850 1300
+	2850 1850 2850 1400
 Wire Wire Line
-	2850 1300 8200 1300
+	2850 1300 7800 1300
 Wire Wire Line
 	8200 1300 8200 1550
 Wire Wire Line
@@ -265,57 +201,31 @@ Wire Wire Line
 Connection ~ 8200 1900
 Wire Wire Line
 	8200 1900 8200 1950
-Connection ~ 4900 1600
 Wire Wire Line
 	4900 4850 2750 4850
 Wire Wire Line
 	2750 4850 2750 4700
 Wire Wire Line
-	4900 1600 4900 3400
-Wire Wire Line
 	5950 3400 4900 3400
 Wire Wire Line
-	5950 3400 5950 2350
-Connection ~ 4900 3400
+	5950 3400 5950 2850
 Wire Wire Line
 	4900 3400 4900 4850
 Connection ~ 2750 4700
 Wire Wire Line
-	2750 4700 2750 4450
+	2750 4700 2750 4550
 Wire Wire Line
 	2750 4700 8200 4700
 Wire Wire Line
 	2050 2650 1250 2650
 Wire Wire Line
-	3150 4900 5500 4900
-Wire Wire Line
 	1600 2950 2050 2950
 Wire Wire Line
-	1600 2950 1600 5100
-Wire Wire Line
-	3250 4550 3250 4450
-Wire Wire Line
-	3150 4450 3150 4900
-Wire Wire Line
 	6000 7300 6000 7100
-Wire Wire Line
-	3150 1050 3150 1200
-Wire Wire Line
-	3150 1050 6600 1050
-Connection ~ 3150 1200
-Wire Wire Line
-	5550 2250 5550 3300
 Wire Wire Line
 	3850 2250 5550 2250
 Wire Wire Line
 	5550 3300 6800 3300
-Wire Wire Line
-	6400 4550 7300 4550
-Wire Wire Line
-	3250 4550 6400 4550
-Connection ~ 6400 4550
-Wire Wire Line
-	6400 3100 6400 4550
 Wire Wire Line
 	5450 2350 3850 2350
 Wire Wire Line
@@ -324,12 +234,6 @@ Wire Wire Line
 	6800 3200 5450 3200
 Wire Wire Line
 	6800 3100 6400 3100
-Wire Wire Line
-	6800 3000 6400 3000
-Wire Wire Line
-	6400 2000 6600 2000
-Wire Wire Line
-	6400 3000 6400 2000
 $Comp
 L Connector_Generic:Conn_01x04 Temp1
 U 1 1 5AD9766D
@@ -346,4 +250,128 @@ Wire Wire Line
 Connection ~ 2750 4850
 Wire Wire Line
 	2750 7300 5800 7300
+$Comp
+L Device:R R56_1
+U 1 1 5AFCB103
+P 5950 2700
+F 0 "R56_1" H 6020 2746 50  0000 L CNN
+F 1 "R" H 6020 2655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5880 2700 50  0001 C CNN
+F 3 "~" H 5950 2700 50  0001 C CNN
+	1    5950 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2250 5550 3300
+Wire Wire Line
+	5950 2550 5950 2350
+Wire Wire Line
+	5950 1400 5950 1950
+Wire Wire Line
+	3050 1850 3150 1850
+Wire Wire Line
+	5000 1850 5000 3000
+Connection ~ 3150 1850
+Wire Wire Line
+	3150 1850 5000 1850
+Wire Wire Line
+	5000 3000 6800 3000
+$Comp
+L Connector_Generic:Conn_01x03 433_TX1
+U 1 1 5AD8F089
+P 7000 2700
+F 0 "433_TX1" H 7080 2742 50  0000 L CNN
+F 1 "433 MHz transmit" H 7080 2651 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7000 2700 50  0001 C CNN
+F 3 "~" H 7000 2700 50  0001 C CNN
+	1    7000 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2450 6800 2600
+$Comp
+L Connector_Generic:Conn_01x04 433_RX1
+U 1 1 5AD90BD9
+P 7000 2100
+F 0 "433_RX1" H 7079 2092 50  0000 L CNN
+F 1 "433 Mhz receive" H 7079 2001 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-4_Vertical" H 7000 2100 50  0001 C CNN
+F 3 "~" H 7000 2100 50  0001 C CNN
+	1    7000 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3100 6400 5000
+Wire Wire Line
+	6400 5000 2650 5000
+Wire Wire Line
+	2650 5000 2650 4450
+Connection ~ 6400 3100
+$Comp
+L tsdp48xx_0:TSOP45xx_0 U1
+U 1 1 5AFDFBCA
+P 7450 5150
+F 0 "U1" H 6983 5200 50  0000 R CNN
+F 1 "TSOP45xx_0" H 6983 5109 50  0000 R CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7400 4775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/82460/tsop45.pdf" H 8100 5450 50  0001 C CNN
+	1    7450 5150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 5500 5900 5500
+Wire Wire Line
+	7050 4950 5050 4950
+Wire Wire Line
+	5050 4950 5050 5300
+Connection ~ 5050 5300
+Wire Wire Line
+	7050 5150 3150 5150
+Wire Wire Line
+	3150 4450 3150 5150
+Wire Wire Line
+	7050 5350 1600 5350
+Wire Wire Line
+	1600 2950 1600 5350
+Wire Wire Line
+	2850 600  2850 1300
+Wire Wire Line
+	2850 600  6550 600 
+Connection ~ 2850 1300
+Wire Wire Line
+	6800 2700 6700 2700
+Wire Wire Line
+	6700 2700 6700 2400
+Wire Wire Line
+	6700 2400 7800 2400
+Wire Wire Line
+	7800 2400 7800 1300
+Connection ~ 7800 1300
+Wire Wire Line
+	7800 1300 8200 1300
+Connection ~ 2750 4550
+Wire Wire Line
+	2750 4550 2750 4450
+Wire Wire Line
+	2750 4550 7300 4550
+Connection ~ 2850 1400
+Wire Wire Line
+	2850 1400 2850 1300
+Wire Wire Line
+	2850 1400 5000 1400
+Wire Wire Line
+	6400 2000 6800 2000
+Wire Wire Line
+	6400 2000 6400 3100
+Wire Wire Line
+	6800 2300 6550 2300
+Wire Wire Line
+	6550 2300 6550 600 
+Wire Wire Line
+	6550 600  6800 600 
+Connection ~ 6550 600 
+Wire Wire Line
+	6800 2200 6500 2200
+Wire Wire Line
+	6500 2200 6500 3550
 $EndSCHEMATC
