@@ -289,10 +289,10 @@ $EndComp
 Wire Wire Line
 	6400 3100 6400 5000
 $Comp
-L tsdp48xx_0:TSOP45xx_0 U1
+L tsdp48xx_0:TSOP45xx_0 TSOP48xx_1
 U 1 1 5AFDFBCA
 P 7450 5150
-F 0 "U1" H 6983 5200 50  0000 R CNN
+F 0 "TSOP48xx_1" H 6983 5200 50  0000 R CNN
 F 1 "TSOP45xx_0" H 6983 5109 50  0000 R CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7400 4775 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/82460/tsop45.pdf" H 8100 5450 50  0001 C CNN
@@ -302,10 +302,12 @@ $EndComp
 Wire Wire Line
 	5050 5500 5900 5500
 Wire Wire Line
-	7050 4950 6900 4950
+	7050 4950 5050 4950
 Wire Wire Line
 	5050 4950 5050 5300
 Connection ~ 5050 5300
+Wire Wire Line
+	7050 5150 3150 5150
 Wire Wire Line
 	3150 4450 3150 5150
 Wire Wire Line
@@ -370,32 +372,4 @@ Wire Wire Line
 	2550 5000 2550 4450
 Wire Wire Line
 	2550 5000 6400 5000
-$Comp
-L ha_plattform-rescue:TSOP382xx U2
-U 1 1 5AFF873B
-P 8950 5150
-F 0 "U2" H 8483 5200 50  0000 R CNN
-F 1 "TSOP382xx" H 8483 5109 50  0000 R CNN
-F 2 "Opto-Devices:IRReceiver_Vishay_MINICAST-3pin" H 8900 4775 50  0001 C CNN
-F 3 "" H 9600 5450 50  0001 C CNN
-	1    8950 5150
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6900 4950 6900 4750
-Wire Wire Line
-	6900 4750 8550 4750
-Wire Wire Line
-	8550 4750 8550 4950
-Connection ~ 6900 4950
-Wire Wire Line
-	6900 4950 5050 4950
-Wire Wire Line
-	3150 5150 7050 5150
-Connection ~ 7050 5150
-Wire Wire Line
-	7050 5150 8550 5150
-Wire Wire Line
-	8550 5350 7050 5350
-Connection ~ 7050 5350
 $EndSCHEMATC
