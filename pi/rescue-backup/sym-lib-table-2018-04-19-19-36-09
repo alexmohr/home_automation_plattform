@@ -1,0 +1,13 @@
+(sym_lib_table
+  (lib (name tp4056)(type Legacy)(uri /home/me/dev/kicad-radio-libraries/symbols/tp4056.lib)(options "")(descr ""))
+  (lib (name quectel-l80)(type Legacy)(uri /home/me/dev/kicad-radio-libraries/symbols/quectel-l80.lib)(options "")(descr ""))
+  (lib (name mk12c02)(type Legacy)(uri /home/me/dev/kicad-radio-libraries/symbols/mk12c02.lib)(options "")(descr ""))
+  (lib (name fdg6342l)(type Legacy)(uri /home/me/dev/kicad-radio-libraries/symbols/fdg6342l.lib)(options "")(descr ""))
+  (lib (name dw01-p)(type Legacy)(uri /home/me/dev/kicad-radio-libraries/symbols/dw01-p.lib)(options "")(descr ""))
+  (lib (name bu33td3wg)(type Legacy)(uri /home/me/dev/kicad-radio-libraries/symbols/bu33td3wg.lib)(options "")(descr ""))
+  (lib (name bt-hc-05)(type Legacy)(uri /home/me/dev/kicad-radio-libraries/symbols/bt-hc-05.lib)(options "")(descr ""))
+  (lib (name ape8800n)(type Legacy)(uri /home/me/dev/kicad-radio-libraries/symbols/ape8800n.lib)(options "")(descr ""))
+  (lib (name ad9850-mod)(type Legacy)(uri /home/me/dev/kicad-radio-libraries/symbols/ad9850-mod.lib)(options "")(descr ""))
+  (lib (name 8205a)(type Legacy)(uri /home/me/dev/kicad-radio-libraries/symbols/8205a.lib)(options "")(descr ""))
+  (lib (name w_connectors)(type Legacy)(uri /home/me/dev/kicad-radio-libraries/lib_w_connectors/w_connectors.lib)(options "")(descr ""))
+)

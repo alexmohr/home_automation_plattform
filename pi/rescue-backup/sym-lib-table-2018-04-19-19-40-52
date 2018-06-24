@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ha_plattform-rescue)(type Legacy)(uri ${KIPRJMOD}/ha_plattform-rescue.lib)(options "")(descr ""))
+)
