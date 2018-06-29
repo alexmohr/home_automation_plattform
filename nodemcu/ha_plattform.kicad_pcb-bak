@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 5)
     (tracks 23)
     (zones 0)
     (modules 4)
@@ -767,6 +767,9 @@
       (xy -2.620173 1.933271) (xy -2.53664 1.952468)) (layer F.SilkS) (width 0.01))
   )
 
+  (gr_text "(c) 2018 Alexander Mohr " (at 42.25 73.21) (layer F.SilkS)
+    (effects (font (size 1.4 1.4) (thickness 0.3)))
+  )
   (gr_line (start 74 20) (end 74 75) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5AFCC2C3))
   (gr_line (start 20 20) (end 20 75) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 20 20) (end 74 20) (angle 90) (layer Edge.Cuts) (width 0.15))

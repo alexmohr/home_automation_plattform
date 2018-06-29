@@ -258,10 +258,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 1400 5950 1950
 Wire Wire Line
-	5000 1850 5000 3000
-Wire Wire Line
-	3150 1850 5000 1850
-Wire Wire Line
 	5000 3000 6800 3000
 $Comp
 L Connector_Generic:Conn_01x03 433_TX1
@@ -357,7 +353,6 @@ Wire Wire Line
 Connection ~ 6400 3100
 Wire Wire Line
 	6400 2000 6400 3100
-Connection ~ 3150 1850
 $Comp
 L ha_plattform-rescue:Raspberry_Pi_2_3 J3
 U 1 1 5AD7EDF3
@@ -373,4 +368,10 @@ Wire Wire Line
 	2550 5000 2550 4450
 Wire Wire Line
 	2550 5000 6400 5000
+Wire Wire Line
+	3050 1850 3050 1700
+Wire Wire Line
+	3050 1700 5000 1700
+Wire Wire Line
+	5000 1700 5000 3000
 $EndSCHEMATC

@@ -184,10 +184,6 @@ Wire Wire Line
 	8200 1900 8950 1900
 Wire Wire Line
 	8950 1900 8950 900 
-Wire Wire Line
-	1250 900  1250 2650
-Wire Wire Line
-	1250 900  8950 900 
 Connection ~ 8200 1900
 Wire Wire Line
 	8200 1900 8200 1950
@@ -206,8 +202,6 @@ Wire Wire Line
 	2750 4700 2750 4550
 Wire Wire Line
 	2750 4700 8200 4700
-Wire Wire Line
-	2050 2650 1250 2650
 Wire Wire Line
 	1600 2950 2050 2950
 Wire Wire Line
@@ -374,4 +368,10 @@ Wire Wire Line
 	3050 1700 5000 1700
 Wire Wire Line
 	5000 1700 5000 3000
+Wire Wire Line
+	3850 2650 4100 2650
+Wire Wire Line
+	4100 2650 4100 900 
+Wire Wire Line
+	4100 900  8950 900 
 $EndSCHEMATC
