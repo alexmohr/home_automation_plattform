@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/me/dev/ha_plattform/nodemcu/nodemcu.sch)
-    (date "Sun 24 Jun 2018 17:03:28 CEST")
+    (date "Thu 02 Aug 2018 19:47:18 CEST")
     (tool "Eeschema (5.0.0-rc2-dev-482-gf81c77cd4)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
